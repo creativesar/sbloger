@@ -3,8 +3,6 @@ import Cards from "@/components/Cards";
 import Hero from "@/components/Hero";
 import Subscribe from "@/components/Subscribe";
 import Testimonials from "@/components/Testiominals";
-import Image from "next/image";
-
 
 export default function Home() {
   return (
@@ -14,7 +12,6 @@ export default function Home() {
       <Cards />
       <Subscribe />
       <Testimonials />
-       
-      </div>
+    </div>
   );
 }
