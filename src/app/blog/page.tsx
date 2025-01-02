@@ -106,7 +106,7 @@ export const Blog1 = () => {
                   <div className="w-full justify-between items-center inline-flex">
                     <div className="justify-start items-center gap-2.5 flex">
                       <div className="w-10 h-10 bg-gray-300 rounded-full justify-start items-start gap-2.5 flex">
-                        <img className="rounded-full object-cover" src="https://i.pravatar.cc/150?img=3" alt="User image" />
+                        <Image className="rounded-full object-cover" src="https://i.pravatar.cc/150?img=3" alt="User image" width={40} height={40} />
                       </div>
                       <div className="flex-col justify-start items-start gap-1 inline-flex">
                         <h5 className="text-gray-900 text-sm font-semibold leading-snug">{comment.user.username}</h5>
@@ -164,13 +164,13 @@ export const Blog1 = () => {
                     <h5 className="text-gray-500 text-sm font-normal leading-snug">30</h5>
                     <div className="justify-start items-start flex -space-x-2 overflow-hidden">
                       <div className="p-1.5 inline-block ring-1 ring-white bg-gray-100 rounded-full border border-white justify-center items-center flex">
-                        <img className="w-3 h-3" src="https://pagedone.io/asset/uploads/1716545141.png" alt="Thumbs Up emoji" />
+                        <Image className="w-3 h-3" src="https://pagedone.io/asset/uploads/1716545141.png" alt="Thumbs Up emoji" width={12} height={12} />
                       </div>
                       <div className="p-1.5 inline-block ring-1 ring-white bg-gray-100 rounded-full border border-white justify-center items-center flex">
-                        <img className="w-3 h-3" src="https://pagedone.io/asset/uploads/1716545183.png" alt="Smiling eyes emoji" />
+                        <Image className="w-3 h-3" src="https://pagedone.io/asset/uploads/1716545183.png" alt="Smiling eyes emoji" width={12} height={12} />
                       </div>
                       <div className="p-1.5 inline-block ring-1 ring-white bg-gray-100 rounded-full border border-white justify-center items-center flex">
-                        <img className="w-3 h-3" src="https://pagedone.io/asset/uploads/1716545217.png" alt="hugging face emoji" />
+                        <Image className="w-3 h-3" src="https://pagedone.io/asset/uploads/1716545217.png" alt="hugging face emoji" width={12} height={12} />
                       </div>
                     </div>
                   </div>
@@ -216,7 +216,7 @@ export const Blog2 = () => {
                 <div className="w-full justify-between items-center inline-flex">
                   <div className="justify-start items-center gap-2.5 flex">
                     <div className="w-10 h-10 bg-gray-300 rounded-full justify-start items-start gap-2.5 flex">
-                      <img className="rounded-full object-cover" src="https://i.pravatar.cc/150?img=3" alt="User image" />
+                      <Image className="rounded-full object-cover" src="https://i.pravatar.cc/150?img=3" alt="User image" width={40} height={40} />
                     </div>
                     <div className="flex-col justify-start items-start gap-1 inline-flex">
                       <h5 className="text-gray-900 text-sm font-semibold leading-snug">{comment.user.username}</h5>
@@ -274,13 +274,13 @@ export const Blog2 = () => {
                   <h5 className="text-gray-500 text-sm font-normal leading-snug">30</h5>
                   <div className="justify-start items-start flex -space-x-2 overflow-hidden">
                     <div className="p-1.5 inline-block ring-1 ring-white bg-gray-100 rounded-full border border-white justify-center items-center flex">
-                      <img className="w-3 h-3" src="https://pagedone.io/asset/uploads/1716545141.png" alt="Thumbs Up emoji" />
+                      <Image className="w-3 h-3" src="https://pagedone.io/asset/uploads/1716545141.png" alt="Thumbs Up emoji" width={12} height={12} />
                     </div>
                     <div className="p-1.5 inline-block ring-1 ring-white bg-gray-100 rounded-full border border-white justify-center items-center flex">
-                      <img className="w-3 h-3" src="https://pagedone.io/asset/uploads/1716545183.png" alt="Smiling eyes emoji" />
+                      <Image className="w-3 h-3" src="https://pagedone.io/asset/uploads/1716545183.png" alt="Smiling eyes emoji" width={12} height={12} />
                     </div>
                     <div className="p-1.5 inline-block ring-1 ring-white bg-gray-100 rounded-full border border-white justify-center items-center flex">
-                      <img className="w-3 h-3" src="https://pagedone.io/asset/uploads/1716545217.png" alt="hugging face emoji" />
+                      <Image className="w-3 h-3" src="https://pagedone.io/asset/uploads/1716545217.png" alt="hugging face emoji" width={12} height={12} />
                     </div>
                   </div>
                 </div>
@@ -344,7 +344,7 @@ export const Blog3 = () => {
                 <div className="w-full justify-between items-center inline-flex">
                   <div className="justify-start items-center gap-2.5 flex">
                     <div className="w-10 h-10 bg-gray-300 rounded-full justify-start items-start gap-2.5 flex">
-                      <img className="rounded-full object-cover" src="https://i.pravatar.cc/150?img=3" alt="User image" />
+                      <Image className="rounded-full object-cover" src="https://i.pravatar.cc/150?img=3" alt="User image" width={40} height={40} />
                     </div>
                     <div className="flex-col justify-start items-start gap-1 inline-flex">
                       <h5 className="text-gray-900 text-sm font-semibold leading-snug">{comment.user.username}</h5>
@@ -402,13 +402,13 @@ export const Blog3 = () => {
                   <h5 className="text-gray-500 text-sm font-normal leading-snug">30</h5>
                   <div className="justify-start items-start flex -space-x-2 overflow-hidden">
                     <div className="p-1.5 inline-block ring-1 ring-white bg-gray-100 rounded-full border border-white justify-center items-center flex">
-                      <img className="w-3 h-3" src="https://pagedone.io/asset/uploads/1716545141.png" alt="Thumbs Up emoji" />
+                      <Image className="w-3 h-3" src="https://pagedone.io/asset/uploads/1716545141.png" alt="Thumbs Up emoji" width={12} height={12} />
                     </div>
                     <div className="p-1.5 inline-block ring-1 ring-white bg-gray-100 rounded-full border border-white justify-center items-center flex">
-                      <img className="w-3 h-3" src="https://pagedone.io/asset/uploads/1716545183.png" alt="Smiling eyes emoji" />
+                      <Image className="w-3 h-3" src="https://pagedone.io/asset/uploads/1716545183.png" alt="Smiling eyes emoji" width={12} height={12} />
                     </div>
                     <div className="p-1.5 inline-block ring-1 ring-white bg-gray-100 rounded-full border border-white justify-center items-center flex">
-                      <img className="w-3 h-3" src="https://pagedone.io/asset/uploads/1716545217.png" alt="hugging face emoji" />
+                      <Image className="w-3 h-3" src="https://pagedone.io/asset/uploads/1716545217.png" alt="hugging face emoji" width={12} height={12} />
                     </div>
                   </div>
                 </div>
@@ -472,7 +472,7 @@ export const Blog4 = () => {
                 <div className="w-full justify-between items-center inline-flex">
                   <div className="justify-start items-center gap-2.5 flex">
                     <div className="w-10 h-10 bg-gray-300 rounded-full justify-start items-start gap-2.5 flex">
-                      <img className="rounded-full object-cover" src="https://i.pravatar.cc/150?img=3" alt="User image" />
+                      <Image className="rounded-full object-cover" src="https://i.pravatar.cc/150?img=3" alt="User image" width={40} height={40} />
                     </div>
                     <div className="flex-col justify-start items-start gap-1 inline-flex">
                       <h5 className="text-gray-900 text-sm font-semibold leading-snug">{comment.user.username}</h5>
@@ -530,13 +530,13 @@ export const Blog4 = () => {
                   <h5 className="text-gray-500 text-sm font-normal leading-snug">30</h5>
                   <div className="justify-start items-start flex -space-x-2 overflow-hidden">
                     <div className="p-1.5 inline-block ring-1 ring-white bg-gray-100 rounded-full border border-white justify-center items-center flex">
-                      <img className="w-3 h-3" src="https://pagedone.io/asset/uploads/1716545141.png" alt="Thumbs Up emoji" />
+                      <Image className="w-3 h-3" src="https://pagedone.io/asset/uploads/1716545141.png" alt="Thumbs Up emoji" width={12} height={12} />
                     </div>
                     <div className="p-1.5 inline-block ring-1 ring-white bg-gray-100 rounded-full border border-white justify-center items-center flex">
-                      <img className="w-3 h-3" src="https://pagedone.io/asset/uploads/1716545183.png" alt="Smiling eyes emoji" />
+                      <Image className="w-3 h-3" src="https://pagedone.io/asset/uploads/1716545183.png" alt="Smiling eyes emoji" width={12} height={12} />
                     </div>
                     <div className="p-1.5 inline-block ring-1 ring-white bg-gray-100 rounded-full border border-white justify-center items-center flex">
-                      <img className="w-3 h-3" src="https://pagedone.io/asset/uploads/1716545217.png" alt="hugging face emoji" />
+                      <Image className="w-3 h-3" src="https://pagedone.io/asset/uploads/1716545217.png" alt="hugging face emoji" width={12} height={12} />
                     </div>
                   </div>
                 </div>
@@ -600,7 +600,7 @@ export const Blog5 = () => {
                 <div className="w-full justify-between items-center inline-flex">
                   <div className="justify-start items-center gap-2.5 flex">
                     <div className="w-10 h-10 bg-gray-300 rounded-full justify-start items-start gap-2.5 flex">
-                      <img className="rounded-full object-cover" src="https://i.pravatar.cc/150?img=3" alt="User image" />
+                      <Image className="rounded-full object-cover" src="https://i.pravatar.cc/150?img=3" alt="User image" width={40} height={40} />
                     </div>
                     <div className="flex-col justify-start items-start gap-1 inline-flex">
                       <h5 className="text-gray-900 text-sm font-semibold leading-snug">{comment.user.username}</h5>
@@ -658,13 +658,13 @@ export const Blog5 = () => {
                   <h5 className="text-gray-500 text-sm font-normal leading-snug">30</h5>
                   <div className="justify-start items-start flex -space-x-2 overflow-hidden">
                     <div className="p-1.5 inline-block ring-1 ring-white bg-gray-100 rounded-full border border-white justify-center items-center flex">
-                      <img className="w-3 h-3" src="https://pagedone.io/asset/uploads/1716545141.png" alt="Thumbs Up emoji" />
+                      <Image className="w-3 h-3" src="https://pagedone.io/asset/uploads/1716545141.png" alt="Thumbs Up emoji" width={12} height={12} />
                     </div>
                     <div className="p-1.5 inline-block ring-1 ring-white bg-gray-100 rounded-full border border-white justify-center items-center flex">
-                      <img className="w-3 h-3" src="https://pagedone.io/asset/uploads/1716545183.png" alt="Smiling eyes emoji" />
+                      <Image className="w-3 h-3" src="https://pagedone.io/asset/uploads/1716545183.png" alt="Smiling eyes emoji" width={12} height={12} />
                     </div>
                     <div className="p-1.5 inline-block ring-1 ring-white bg-gray-100 rounded-full border border-white justify-center items-center flex">
-                      <img className="w-3 h-3" src="https://pagedone.io/asset/uploads/1716545217.png" alt="hugging face emoji" />
+                      <Image className="w-3 h-3" src="https://pagedone.io/asset/uploads/1716545217.png" alt="hugging face emoji" width={12} height={12} />
                     </div>
                   </div>
                 </div>
@@ -742,7 +742,7 @@ export const Blog6 = () => {
                 <div className="w-full justify-between items-center inline-flex">
                   <div className="justify-start items-center gap-2.5 flex">
                     <div className="w-10 h-10 bg-gray-300 rounded-full justify-start items-start gap-2.5 flex">
-                      <img className="rounded-full object-cover" src="https://i.pravatar.cc/150?img=3" alt="User image" />
+                      <Image className="rounded-full object-cover" src="https://i.pravatar.cc/150?img=3" alt="User image" width={40} height={40} />
                     </div>
                     <div className="flex-col justify-start items-start gap-1 inline-flex">
                       <h5 className="text-gray-900 text-sm font-semibold leading-snug">{comment.user.username}</h5>
@@ -800,13 +800,13 @@ export const Blog6 = () => {
                   <h5 className="text-gray-500 text-sm font-normal leading-snug">30</h5>
                   <div className="justify-start items-start flex -space-x-2 overflow-hidden">
                     <div className="p-1.5 inline-block ring-1 ring-white bg-gray-100 rounded-full border border-white justify-center items-center flex">
-                      <img className="w-3 h-3" src="https://pagedone.io/asset/uploads/1716545141.png" alt="Thumbs Up emoji" />
+                      <Image className="w-3 h-3" src="https://pagedone.io/asset/uploads/1716545141.png" alt="Thumbs Up emoji" width={12} height={12} />
                     </div>
                     <div className="p-1.5 inline-block ring-1 ring-white bg-gray-100 rounded-full border border-white justify-center items-center flex">
-                      <img className="w-3 h-3" src="https://pagedone.io/asset/uploads/1716545183.png" alt="Smiling eyes emoji" />
+                      <Image className="w-3 h-3" src="https://pagedone.io/asset/uploads/1716545183.png" alt="Smiling eyes emoji" width={12} height={12} />
                     </div>
                     <div className="p-1.5 inline-block ring-1 ring-white bg-gray-100 rounded-full border border-white justify-center items-center flex">
-                      <img className="w-3 h-3" src="https://pagedone.io/asset/uploads/1716545217.png" alt="hugging face emoji" />
+                      <Image className="w-3 h-3" src="https://pagedone.io/asset/uploads/1716545217.png" alt="hugging face emoji" width={12} height={12} />
                     </div>
                   </div>
                 </div>
