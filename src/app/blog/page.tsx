@@ -52,7 +52,7 @@ const handleAddComment = (comments: Comment[], setComments: (comments: Comment[]
   }
 };
 
-export const Blog1 = () => {
+const Blog1 = () => {
   const { comments, setComments } = useComments();
   return (
     <div className="container mx-auto py-10 px-4">
@@ -185,6 +185,9 @@ export const Blog1 = () => {
     </div>
   );
 };
+
+// Export Blog1 as the default export to make it a valid Next.js page
+export default Blog1;
 
 export const Blog2 = () => {
   const { comments, setComments } = useComments();
