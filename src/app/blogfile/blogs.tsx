@@ -1,4 +1,4 @@
-import BlogTemplate from './page';
+import BlogTemplate from './BlogTemplate';
 
 export const Blog1: React.FC = () => (
   <BlogTemplate
