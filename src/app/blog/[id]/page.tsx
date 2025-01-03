@@ -1,6 +1,6 @@
 'use client';
 import { usePathname } from 'next/navigation';
-import Blog1, { Blog2, Blog3, Blog4, Blog5 } from '@/app/blogfile/page';
+import { Blog1, Blog2, Blog3, Blog4, Blog5 } from '@/app/blogfile/blogs';
 
 export default function BlogPage() {
   const pathname = usePathname();
