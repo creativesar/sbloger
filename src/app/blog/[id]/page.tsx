@@ -34,3 +34,14 @@ export default function BlogPage() {
     </div>
   );
 }
+
+// Add generateStaticParams function
+export async function generateStaticParams() {
+  return [
+    { id: '1' },
+    { id: '2' },
+    { id: '3' },
+    { id: '4' },
+    { id: '5' },
+  ];
+}
