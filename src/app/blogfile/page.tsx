@@ -127,7 +127,7 @@ const Blog1 = () => {
   );
 };
 
-export { Blog1 };
+export default Blog1;
 
 const Blog2 = () => {
   const { comments, setComments } = useComments();
