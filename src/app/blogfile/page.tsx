@@ -30,7 +30,7 @@ const useComments = () => {
   return { comments, setComments };
 };
 
-const Blog1 = () => {
+const Blog1: React.FC = () => {
   const { comments, setComments } = useComments();
   const [username, setUsername] = useState('');
   const [comment, setComment] = useState('');
@@ -127,9 +127,7 @@ const Blog1 = () => {
   );
 };
 
-export default Blog1;
-
-const Blog2 = () => {
+export const Blog2: React.FC = () => {
   const { comments, setComments } = useComments();
   const [username, setUsername] = useState('');
   const [comment, setComment] = useState('');
@@ -226,9 +224,7 @@ const Blog2 = () => {
   );
 };
 
-export { Blog2 };
-
-const Blog3 = () => {
+export const Blog3: React.FC = () => {
   const { comments, setComments } = useComments();
   const [username, setUsername] = useState('');
   const [comment, setComment] = useState('');
@@ -325,9 +321,7 @@ const Blog3 = () => {
   );
 };
 
-export { Blog3 };
-
-const Blog4 = () => {
+export const Blog4: React.FC = () => {
   const { comments, setComments } = useComments();
   const [username, setUsername] = useState('');
   const [comment, setComment] = useState('');
@@ -424,9 +418,7 @@ const Blog4 = () => {
   );
 };
 
-export { Blog4 };
-
-const Blog5 = () => {
+export const Blog5: React.FC = () => {
   const { comments, setComments } = useComments();
   const [username, setUsername] = useState('');
   const [comment, setComment] = useState('');
@@ -523,7 +515,7 @@ const Blog5 = () => {
   );
 };
 
-export { Blog5 };
+export default Blog1;
 
 
 
