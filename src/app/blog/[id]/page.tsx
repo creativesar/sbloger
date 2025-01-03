@@ -1,3 +1,4 @@
+'use client';
 import { usePathname } from 'next/navigation';
 // Import the missing Blog components
 import Blog1 from '../../Blog1/page';
@@ -32,15 +33,4 @@ export default function BlogPage() {
       {renderBlog()}
     </div>
   );
-}
-
-// Add generateStaticParams function
-export async function generateStaticParams() {
-  return [
-    { id: '1' },
-    { id: '2' },
-    { id: '3' },
-    { id: '4' },
-    { id: '5' },
-  ];
 }
