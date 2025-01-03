@@ -1,4 +1,3 @@
-'use client';
 import { usePathname } from 'next/navigation';
 // Import the missing Blog components
 import Blog1 from '../../Blog1/page';
