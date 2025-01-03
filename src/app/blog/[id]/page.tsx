@@ -1,11 +1,11 @@
 'use client';
 import { usePathname } from 'next/navigation';
 // Import the missing Blog components
-import { Blog1 } from '../page';
-import { Blog2 } from '../page';
-import { Blog3 } from '../page';
-import { Blog4 } from '../page';
-import { Blog5 } from '../page';
+import { Blog1 } from '@/app/blogfile/page';
+import { Blog2 } from '@/app/blogfile/page';
+import { Blog3 } from '@/app/blogfile/page';
+import { Blog4 } from '@/app/blogfile/page';
+import { Blog5 } from '@/app/blogfile/page';
 
 export default function BlogPage() {
   const pathname = usePathname();
